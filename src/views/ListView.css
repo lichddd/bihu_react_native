@@ -1,0 +1,32 @@
+
+.list-view {
+  position: absolute;
+  background-color: #222;
+  height: 100%;
+  width: 200px;
+  min-width: 200px;
+  color: white;
+  top: 0px;
+  left: -200px;
+  transition: left 0.5s;
+  overflow-y: scroll;
+}
+.list-view.show{
+
+  left: 0px;
+}
+.list-view>h3
+{
+  text-align: left;
+  padding-left: 20px;
+}
+.list-view>h3>a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+.list-view>h3>a.active
+{
+  color: #efefef;
+      text-shadow: 1px 1px 5px;
+}

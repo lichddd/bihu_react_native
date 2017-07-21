@@ -1,0 +1,60 @@
+*
+{
+box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.hide
+{
+  display: none;
+}
+
+/*滚动条宽度*/
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+
+
+/* 轨道样式 */
+
+::-webkit-scrollbar-track {
+
+  background: rgba(0, 0, 0, 0);
+  width: 0px;
+
+}
+
+
+/* Handle样式 */
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+/*当前窗口未激活的情况下*/
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+/*hover到滚动条上*/
+
+::-webkit-scrollbar-thumb:vertical:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*滚动条按下*/
+
+::-webkit-scrollbar-thumb:vertical:active {
+  background-color: rgba(0, 0, 0, 0.7);
+}

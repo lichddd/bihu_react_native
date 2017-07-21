@@ -1,0 +1,30 @@
+
+.context-part {
+  height: calc(100% - 60px);
+  overflow: scroll;
+  background: #efefef;
+  text-align: left;
+}
+
+.context-part > .continer img{
+
+  max-width: 100%;
+}
+@media screen and (min-width: 1200px){
+  .context-part > .continer{
+
+    padding: 40px 60px 40px 60px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1200px){
+  .context-part > .continer{
+
+    padding: 20px 40px 20px 40px;
+  }
+}
+@media screen and (max-width: 750px){
+  .context-part > .continer{
+
+    padding: 10px 20px 10px 20px;
+  }
+}

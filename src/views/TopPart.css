@@ -1,0 +1,28 @@
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.top-part {
+  background-color: #222;
+  height: 60px;
+  padding: 0px;
+  color: white;
+}
+.top-part > *{
+  float: left;
+}
+.top-part > h2{
+margin: 13px 0px 0px ;
+}
+.top-part > h6{
+margin: 26px -50px 0px 2px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
